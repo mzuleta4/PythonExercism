@@ -5,7 +5,7 @@ class Matrix(object):
         pass
 
     def row(self, index):
-        return  [int(number) for number in self.rows[index-1].split()]
+        return [int(number) for number in self.rows[index - 1].split()]
 
     def column(self, index):
-        return [int(row.split()[index-1]) for row in self.rows]
+        return [int(row.split()[index - 1]) for row in self.rows]
